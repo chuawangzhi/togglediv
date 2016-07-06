@@ -1,0 +1,6 @@
+{
+  "name": "Togglediv",
+  "tagline": "",
+  "body": "<!doctype html>\r\n<html lang=\"en\">\r\n <head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"Generator\" content=\"EditPlus®\">\r\n  <meta name=\"Author\" content=\"\">\r\n  <meta name=\"Keywords\" content=\"\">\r\n  <meta name=\"Description\" content=\"\">\r\n  <title>Document</title>\r\n    <script src=\"https://code.jquery.com/jquery-1.10.2.js\"></script>\r\n\r\n </head>\r\n <body>\r\n<div id=\"abc\">\r\n</div>\r\n\r\n<script>\r\n/*\t$.get(\"area.htm\", function(data){\r\n\t\t$(\"#abc\").html(data);\r\n\t});\r\n*/\r\n$(\"#abc\").load(\"area.htm\");\r\n</script>\r\n\r\n\r\n </body>\r\n</html>\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
