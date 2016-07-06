@@ -20,7 +20,11 @@ abc
 		$("#abc").html(data);
 	});
 	*/
-$("#abc").html('<object data="area.htm">');
+//$("#abc").html('<object data="area.htm">');
+
+    $(function(){
+        $('#abc').load('area.htm');
+    });
 
 //$("#abc").load("area.htm");
 </script>
